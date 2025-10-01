@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-wrapper {
+    width: 100%;
+    background-color: #273747;
+    padding-top: 10px;
+
+}
+
+.nav-top {
+    width: 90%;
+
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.nav-menu {
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.menu-items {
+    width: 90%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: white;
+    padding: 5px;
+
+    margin: auto;
+
+}
+
+.menu-items :hover {
+    color: #D4B57C;
+
+
+    cursor: pointer;
+}
+
+.logo1 {
+
+
+    width: 20%;
+}
+
+.search1 {
+    width: 60%;
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    width: 20%;
+
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+
+#search-icon {
+    margin-left: 8px;
+
+}
+
+.main-wrapper {
+    background-color: #F6F6F6;
+}
+
+.banner {
+    width: 90%;
+    margin: auto;
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.banner-left {
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.banner-center {
+    width: 50%;
+}
+
+.banner-right {
+    width: 25%;
+
+}
+
+.banner-box {
+    width: 95%;
+
+    margin: auto;
+    border-radius: 5px;
+    height: 80px;
+}
+
+.banner-right {
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sales {
+    background-image: url("../assets/big-sales.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+
+.label-boxes {
+    position: absolute;
+    width: 70%;
+    height: 30%;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.new-arrivals {
+    background-image: url("../assets/new-arrival.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    cursor: pointer;
+}
+
+#label-boxes-new-arrivals {
+    position: static;
+
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+
+
+}
+
+.all-collection {
+
+    background-image: url("../assets/kids.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.tops {
+    background-image: url("../assets/dree2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: rgb(2, 2, 2);
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.pants {
+    background-image: url("../assets/pant.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: rgb(6, 6, 6);
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.jewelry {
+    background-image: url("../assets/jewel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.banner-center {
+    background-image: url("../assets/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+
+
+
+    font-weight: bold;
+
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.card-wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+.deals-wrapper {
+    max-width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.footer-full {
+    background-color: #273747;
+}
+
+.footer-90 {
+    width: 90%;
+    margin: 20px auto 0px auto;
+    padding-top: 20px;
+    background-color: #273747
+}
+
+.footer-end-wrapper {
+    width: 100%;
+    background-color: #09090B;
+}
+
+.footer-end-wrapper-90 {
+    max-width: 90%;
+    margin: 10px auto 0px auto;
+    padding-top: 20px;
+}
